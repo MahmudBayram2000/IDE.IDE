@@ -1,0 +1,390 @@
+2024-09-14T10:52:27.729+04:00  INFO 312 --- [IDE] [restartedMain] IDE.IDE.IdeApplication                   : Starting IdeApplication using Java 20.0.2 with PID 312 (C:\Users\mahmu\OneDrive\Desktop\IDE\target\classes started by mahmud in C:\Users\mahmu\OneDrive\Desktop\IDE)
+2024-09-14T10:52:27.740+04:00 DEBUG 312 --- [IDE] [restartedMain] IDE.IDE.IdeApplication                   : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-14T10:52:27.741+04:00  INFO 312 --- [IDE] [restartedMain] IDE.IDE.IdeApplication                   : No active profile set, falling back to 1 default profile: "default"
+2024-09-14T10:52:27.825+04:00  INFO 312 --- [IDE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-14T10:52:27.827+04:00  INFO 312 --- [IDE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-14T10:52:28.877+04:00  INFO 312 --- [IDE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-14T10:52:28.879+04:00  INFO 312 --- [IDE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-14T10:52:28.905+04:00  INFO 312 --- [IDE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2024-09-14T10:52:28.920+04:00  INFO 312 --- [IDE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-14T10:52:28.922+04:00  INFO 312 --- [IDE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14T10:52:28.932+04:00  INFO 312 --- [IDE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2024-09-14T10:52:30.014+04:00  INFO 312 --- [IDE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-14T10:52:30.042+04:00  INFO 312 --- [IDE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-14T10:52:30.042+04:00  INFO 312 --- [IDE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-14T10:52:30.185+04:00  INFO 312 --- [IDE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-14T10:52:30.186+04:00  INFO 312 --- [IDE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2358 ms
+2024-09-14T10:52:30.478+04:00  INFO 312 --- [IDE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14T10:52:30.590+04:00  INFO 312 --- [IDE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-14T10:52:30.653+04:00  INFO 312 --- [IDE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-14T10:52:31.223+04:00  INFO 312 --- [IDE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-14T10:52:31.298+04:00  INFO 312 --- [IDE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-14T10:52:35.367+04:00  INFO 312 --- [IDE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d6a1aa9
+2024-09-14T10:52:35.372+04:00  INFO 312 --- [IDE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-14T10:52:36.283+04:00  INFO 312 --- [IDE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-14T10:52:36.292+04:00  INFO 312 --- [IDE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14T10:52:36.470+04:00  WARN 312 --- [IDE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-14T10:52:37.361+04:00  INFO 312 --- [IDE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-14T10:52:37.400+04:00  INFO 312 --- [IDE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-14T10:52:37.411+04:00  INFO 312 --- [IDE] [restartedMain] IDE.IDE.IdeApplication                   : Started IdeApplication in 10.378 seconds (process running for 11.21)
+2024-09-14T10:53:53.150+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14T10:53:53.158+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-14T10:53:53.158+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-14T10:53:53.730+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-1] IDE.IDE.controller.OrderController       : Received sendOrder request: SendOrder(cari_id=123, xidmet_id=456, xidmet_adi=Some Service, sifaris_id=789, sifaris_adi=Some Order, lab_id=12, pasient=JohnDoe, pasient_id=345, pasient_cins=1, pasient_dogum_tarixi=1985-12-01, IDE_xidmet_id=678, status_id=2, barcode=ABC12312, hospital_id=9, gonderen_id=15, gonderen_adi=Doctor Smith, gonderilen_tarix=2024-08-23 13:43:22)
+2024-09-14T10:53:53.762+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-1] IDE.IDE.service.OrderService             : sendOrder called with data: SendOrder(cari_id=123, xidmet_id=456, xidmet_adi=Some Service, sifaris_id=789, sifaris_adi=Some Order, lab_id=12, pasient=JohnDoe, pasient_id=345, pasient_cins=1, pasient_dogum_tarixi=1985-12-01, IDE_xidmet_id=678, status_id=2, barcode=ABC12312, hospital_id=9, gonderen_id=15, gonderen_adi=Doctor Smith, gonderilen_tarix=2024-08-23 13:43:22)
+2024-09-14T10:53:53.771+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-1] IDE.IDE.repository.OrderRepository       : sendOrder query executed with params: SendOrder(cari_id=123, xidmet_id=456, xidmet_adi=Some Service, sifaris_id=789, sifaris_adi=Some Order, lab_id=12, pasient=JohnDoe, pasient_id=345, pasient_cins=1, pasient_dogum_tarixi=1985-12-01, IDE_xidmet_id=678, status_id=2, barcode=ABC12312, hospital_id=9, gonderen_id=15, gonderen_adi=Doctor Smith, gonderilen_tarix=2024-08-23 13:43:22)
+2024-09-14T10:54:01.729+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-4] IDE.IDE.controller.OrderController       : Received sendOrder request: SendOrder(cari_id=null, xidmet_id=456, xidmet_adi=Some Service, sifaris_id=789, sifaris_adi=Some Order, lab_id=12, pasient=JohnDoe, pasient_id=345, pasient_cins=1, pasient_dogum_tarixi=1985-12-01, IDE_xidmet_id=678, status_id=2, barcode=ABC12312, hospital_id=9, gonderen_id=15, gonderen_adi=Doctor Smith, gonderilen_tarix=2024-08-23 13:43:22)
+2024-09-14T10:54:01.729+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-4] IDE.IDE.service.OrderService             : sendOrder called with data: SendOrder(cari_id=null, xidmet_id=456, xidmet_adi=Some Service, sifaris_id=789, sifaris_adi=Some Order, lab_id=12, pasient=JohnDoe, pasient_id=345, pasient_cins=1, pasient_dogum_tarixi=1985-12-01, IDE_xidmet_id=678, status_id=2, barcode=ABC12312, hospital_id=9, gonderen_id=15, gonderen_adi=Doctor Smith, gonderilen_tarix=2024-08-23 13:43:22)
+2024-09-14T10:54:01.729+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-4] IDE.IDE.repository.OrderRepository       : sendOrder query executed with params: SendOrder(cari_id=null, xidmet_id=456, xidmet_adi=Some Service, sifaris_id=789, sifaris_adi=Some Order, lab_id=12, pasient=JohnDoe, pasient_id=345, pasient_cins=1, pasient_dogum_tarixi=1985-12-01, IDE_xidmet_id=678, status_id=2, barcode=ABC12312, hospital_id=9, gonderen_id=15, gonderen_adi=Doctor Smith, gonderilen_tarix=2024-08-23 13:43:22)
+2024-09-14T10:54:02.349+04:00  WARN 312 --- [IDE] [http-nio-8081-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1366, SQLState: HY000
+2024-09-14T10:54:02.349+04:00 ERROR 312 --- [IDE] [http-nio-8081-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Incorrect integer value: 'null' for column 'cari_id' at row 1
+2024-09-14T10:54:02.382+04:00 ERROR 312 --- [IDE] [http-nio-8081-exec-4] IDE.IDE.service.OrderService             : Error in sendOrder: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]
+
+org.springframework.orm.jpa.JpaSystemException: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:341) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.12.jar:6.1.12]
+	at IDE.IDE.repository.OrderRepository$$SpringCGLIB$$0.sendOrder(<generated>) ~[classes/:na]
+	at IDE.IDE.service.OrderService.sendOrder(OrderService.java:33) ~[classes/:na]
+	at IDE.IDE.controller.OrderController.send(OrderController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: org.hibernate.exception.GenericJDBCException: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:264) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getMetaData(AbstractResultSetAccess.java:36) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getColumnCount(AbstractResultSetAccess.java:52) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.results.ResultSetMappingImpl.resolve(ResultSetMappingImpl.java:193) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:327) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:115) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl.performList(NativeSelectQueryPlanImpl.java:138) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sql.internal.NativeQueryImpl.doList(NativeQueryImpl.java:628) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:423) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at IDE.IDE.repository.OrderRepository.sendOrder(OrderRepository.java:42) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.12.jar:6.1.12]
+	... 54 common frames omitted
+Caused by: java.sql.SQLException: Incorrect integer value: 'null' for column 'cari_id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:968) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 75 common frames omitted
+
+2024-09-14T10:54:02.423+04:00 ERROR 312 --- [IDE] [http-nio-8081-exec-4] I.IDE.exception.GlobalExceptionHandler   : Exception occurred: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]
+
+org.springframework.orm.jpa.JpaSystemException: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:341) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.12.jar:6.1.12]
+	at IDE.IDE.repository.OrderRepository$$SpringCGLIB$$0.sendOrder(<generated>) ~[classes/:na]
+	at IDE.IDE.service.OrderService.sendOrder(OrderService.java:33) ~[classes/:na]
+	at IDE.IDE.controller.OrderController.send(OrderController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: org.hibernate.exception.GenericJDBCException: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:264) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getMetaData(AbstractResultSetAccess.java:36) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getColumnCount(AbstractResultSetAccess.java:52) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.results.ResultSetMappingImpl.resolve(ResultSetMappingImpl.java:193) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:327) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:115) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl.performList(NativeSelectQueryPlanImpl.java:138) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sql.internal.NativeQueryImpl.doList(NativeQueryImpl.java:628) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:423) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at IDE.IDE.repository.OrderRepository.sendOrder(OrderRepository.java:42) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.12.jar:6.1.12]
+	... 54 common frames omitted
+Caused by: java.sql.SQLException: Incorrect integer value: 'null' for column 'cari_id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:968) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 75 common frames omitted
+
+2024-09-14T10:54:02.464+04:00  WARN 312 --- [IDE] [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.orm.jpa.JpaSystemException: JDBC exception executing SQL [CALL SendOrder('null','456','Some Service','789','Some Order','12','JohnDoe','345','1','1985-12-01','678','2','ABC12312','9','15','Doctor Smith','2024-08-23 13:43:22')] [Incorrect integer value: 'null' for column 'cari_id' at row 1] [n/a]]
+2024-09-14T10:54:19.325+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.controller.OrderController       : Received receiveOrder request: [ReceiveOrderRequest(barcode=12345678, hospital_id=1), ReceiveOrderRequest(barcode=1234567, hospital_id=1), ReceiveOrderRequest(barcode=554223, hospital_id=1)]
+2024-09-14T10:54:19.325+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=12345678, hospital_id=1)
+2024-09-14T10:54:19.329+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=12345678, hospital_id=1)
+2024-09-14T10:54:19.563+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=1234567, hospital_id=1)
+2024-09-14T10:54:19.563+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=1234567, hospital_id=1)
+2024-09-14T10:54:19.677+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=554223, hospital_id=1)
+2024-09-14T10:54:19.677+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-2] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=554223, hospital_id=1)
+2024-09-14T10:54:25.695+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.controller.OrderController       : Received receiveOrder request: [ReceiveOrderRequest(barcode=12345678, hospital_id=1), ReceiveOrderRequest(barcode=1234567, hospital_id=1), ReceiveOrderRequest(barcode=null, hospital_id=1)]
+2024-09-14T10:54:25.695+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=12345678, hospital_id=1)
+2024-09-14T10:54:25.695+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=12345678, hospital_id=1)
+2024-09-14T10:54:25.912+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=1234567, hospital_id=1)
+2024-09-14T10:54:25.912+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=1234567, hospital_id=1)
+2024-09-14T10:54:26.026+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:26.026+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-6] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:46.572+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.controller.OrderController       : Received receiveOrder request: [ReceiveOrderRequest(barcode=null, hospital_id=1), ReceiveOrderRequest(barcode=null, hospital_id=1), ReceiveOrderRequest(barcode=null, hospital_id=1)]
+2024-09-14T10:54:46.572+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:46.572+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:47.359+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:47.359+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:47.662+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:54:47.662+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-7] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=null, hospital_id=1)
+2024-09-14T10:55:04.092+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.controller.OrderController       : Received receiveOrder request: [ReceiveOrderRequest(barcode=, hospital_id=1), ReceiveOrderRequest(barcode=, hospital_id=1), ReceiveOrderRequest(barcode=, hospital_id=1)]
+2024-09-14T10:55:04.092+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=, hospital_id=1)
+2024-09-14T10:55:04.092+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=, hospital_id=1)
+2024-09-14T10:55:04.769+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=, hospital_id=1)
+2024-09-14T10:55:04.769+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=, hospital_id=1)
+2024-09-14T10:55:04.899+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.service.OrderService             : receiveOrder called with data: ReceiveOrderRequest(barcode=, hospital_id=1)
+2024-09-14T10:55:04.899+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-8] IDE.IDE.repository.OrderRepository       : recieveOrder query executed with params: ReceiveOrderRequest(barcode=, hospital_id=1)
+2024-09-14T10:55:15.064+04:00 ERROR 312 --- [IDE] [http-nio-8081-exec-9] I.IDE.exception.GlobalExceptionHandler   : Exception occurred: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<IDE.IDE.model.response.ReceiveOrderResponse>> IDE.IDE.controller.OrderController.receive(java.util.List<IDE.IDE.model.request.ReceiveOrderRequest>)
+
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<IDE.IDE.model.response.ReceiveOrderResponse>> IDE.IDE.controller.OrderController.receive(java.util.List<IDE.IDE.model.request.ReceiveOrderRequest>)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:164) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-09-14T10:55:15.070+04:00  WARN 312 --- [IDE] [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<IDE.IDE.model.response.ReceiveOrderResponse>> IDE.IDE.controller.OrderController.receive(java.util.List<IDE.IDE.model.request.ReceiveOrderRequest>)]
+2024-09-14T10:55:29.028+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-3] IDE.IDE.controller.OrderController       : Received status request: [ReceiveOrderComponent(reg_id=123, gebul_id=456, gebul_user=User123, gebul_tarix=2023-09-01, result=null), ReceiveOrderComponent(reg_id=124, gebul_id=457, gebul_user=User124, gebul_tarix=2023-09-02, result=null)]
+2024-09-14T10:55:29.028+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-3] IDE.IDE.service.OrderService             : receiveOrderStatus called with data: ReceiveOrderComponent(reg_id=123, gebul_id=456, gebul_user=User123, gebul_tarix=2023-09-01, result=null)
+2024-09-14T10:55:29.028+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-3] IDE.IDE.repository.OrderRepository       : receiveOrderStatus query executed with params: ReceiveOrderComponent(reg_id=123, gebul_id=456, gebul_user=User123, gebul_tarix=2023-09-01, result=null)
+2024-09-14T10:55:29.961+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-3] IDE.IDE.service.OrderService             : receiveOrderStatus called with data: ReceiveOrderComponent(reg_id=124, gebul_id=457, gebul_user=User124, gebul_tarix=2023-09-02, result=null)
+2024-09-14T10:55:29.961+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-3] IDE.IDE.repository.OrderRepository       : receiveOrderStatus query executed with params: ReceiveOrderComponent(reg_id=124, gebul_id=457, gebul_user=User124, gebul_tarix=2023-09-02, result=null)
+2024-09-14T10:55:39.226+04:00 ERROR 312 --- [IDE] [http-nio-8081-exec-1] I.IDE.exception.GlobalExceptionHandler   : Exception occurred: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<IDE.IDE.model.response.ReceiveOrderStatusResponse>> IDE.IDE.controller.OrderController.status(java.util.List<IDE.IDE.model.request.ReceiveOrderComponent>)
+
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<IDE.IDE.model.response.ReceiveOrderStatusResponse>> IDE.IDE.controller.OrderController.status(java.util.List<IDE.IDE.model.request.ReceiveOrderComponent>)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:164) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2024-09-14T10:55:39.235+04:00  WARN 312 --- [IDE] [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<IDE.IDE.model.response.ReceiveOrderStatusResponse>> IDE.IDE.controller.OrderController.status(java.util.List<IDE.IDE.model.request.ReceiveOrderComponent>)]
+2024-09-14T10:55:48.220+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-5] IDE.IDE.controller.OrderController       : Received status request: [ReceiveOrderComponent(reg_id=123, gebul_id=456, gebul_user=User123, gebul_tarix=2023-09-01, result=Success), ReceiveOrderComponent(reg_id=124, gebul_id=457, gebul_user=User124, gebul_tarix=2023-09-02, result=Failure)]
+2024-09-14T10:55:48.229+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-5] IDE.IDE.service.OrderService             : receiveOrderStatus called with data: ReceiveOrderComponent(reg_id=123, gebul_id=456, gebul_user=User123, gebul_tarix=2023-09-01, result=Success)
+2024-09-14T10:55:48.229+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-5] IDE.IDE.repository.OrderRepository       : receiveOrderStatus query executed with params: ReceiveOrderComponent(reg_id=123, gebul_id=456, gebul_user=User123, gebul_tarix=2023-09-01, result=Success)
+2024-09-14T10:55:49.084+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-5] IDE.IDE.service.OrderService             : receiveOrderStatus called with data: ReceiveOrderComponent(reg_id=124, gebul_id=457, gebul_user=User124, gebul_tarix=2023-09-02, result=Failure)
+2024-09-14T10:55:49.084+04:00  INFO 312 --- [IDE] [http-nio-8081-exec-5] IDE.IDE.repository.OrderRepository       : receiveOrderStatus query executed with params: ReceiveOrderComponent(reg_id=124, gebul_id=457, gebul_user=User124, gebul_tarix=2023-09-02, result=Failure)
+2024-09-14T10:56:36.791+04:00  INFO 312 --- [IDE] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14T10:56:36.797+04:00  INFO 312 --- [IDE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-14T10:56:38.160+04:00  INFO 312 --- [IDE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
